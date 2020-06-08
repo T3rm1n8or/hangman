@@ -1,7 +1,7 @@
 package io
 
 fun main (args:Array<String>) {
-  println("Pick a word for your opponent to start the game:")
+  println("Pick a word for your opponent to start the game: ")
   val word = readLine()
   if (word == null) {
     println("You entered nothing for your opponent. Game over.")
@@ -43,7 +43,7 @@ fun main (args:Array<String>) {
   }
   printExploredWord(word, correctGuesses)
   println("\n#Wrong guesses: $fails\n\n")
-  println("Congratulations, you guessed your opponent's word. Players with the least number of wrong guesses win.")
+  println("Congratulations, you guessed your opponent's word. Players with the least number of wrong guesses win!")
 
 
 
